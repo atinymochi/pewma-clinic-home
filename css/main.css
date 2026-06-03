@@ -1,0 +1,25 @@
+.header-top{
+    background:#2E8B8B;
+    color:white;
+    padding:10px 0;
+    font-size:14px;
+}
+
+.top-message{
+    margin:0;
+    font-weight:500;
+}
+
+.top-contact{
+    margin:0;
+}
+
+.top-contact a{
+    color:white;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.top-contact a:hover{
+    color:#7EF5C8;
+}
