@@ -1,3 +1,19 @@
+:root{
+
+    --primary:#2E8B8B;
+    --primary-light:#5EB8AA;
+
+    --accent:#7EF5C8;
+
+    --dark:#1F2937;
+    --gray:#6B7280;
+
+    --background:#F8FAFC;
+
+    --white:#FFFFFF;
+
+}
+
 /* =========================
    NAVBAR
 ========================= */
@@ -204,6 +220,37 @@
     color: #2E8B8B;
 
     margin-bottom: 20px;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+    background: var(--background);
+
+    color: var(--dark);
+
+    margin: 0;
+}
+
+.btn-primary{
+    background: var(--primary);
+}
+
+.btn-primary:hover{
+    background: var(--primary-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    font-weight: 700;
+
+    color: var(--dark);
 
 }
 
